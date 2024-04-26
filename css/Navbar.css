@@ -1,0 +1,19 @@
+.navbar_nav {
+    justify-content: end;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar_nav li a {
+
+    font-size: 16px;
+    font-weight: 590;
+    line-height: 16px;
+    text-align: left;
+    color:
+        #FFFFFF !important;
+   
+
+}

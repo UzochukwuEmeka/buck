@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #FFC50B;
+    --secondary-color: hsla(152, 100%, 20%, 0);
+    --light-green: #E5FFF3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttons {
+
+    padding: 8px 24px 11px 24px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 590;
+}
+
+.buttons.prim {
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    background-color: transparent;
+}
+
+.buttons.sec {
+    border: none;
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+.banner_con {
+    width: 100%;
+    height: 100%;
+
+    padding: 32px 12px 32px 12px;
+    background-image: linear-gradient(to bottom, hsla(152, 100%, 20%, 1), hsla(152, 100%, 20%, 1)), url('/img/map.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+
+
+
+}
+
+.food_categories_section,
+.food_conclusion {
+    padding: 32px 12px 32px 12px;
+
+}
+
+.food_categories_section .title {
+    color: #004425;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.banner_row {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.banner_text {
+    font-size: 44px;
+    font-weight: 590;
+    line-height: 74px;
+
+    color: var(--light-green);
+
+}
+
+.banner_text span {
+    color: var(--primary-color);
+}
+
+.banner_action {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tag {
+
+    font-size: 14px;
+    font-weight: 590;
+    line-height: 14px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    text-align: center;
+    min-width: 100px;
+    display: inline-block;
+
+}
+
+.tag1 {
+    background: #FFF7DC;
+}
+
+.tag2 {
+    background: #FFE4DC;
+
+}
+.tag3 {
+    background: #E1FFE8;
+
+}
+.categories_img .img_con {
+    height: 563px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.middle_img {
+    height: 248px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.categories_img .img_con img,
+.middle_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.food_conclusion h2 {
+    font-size: 70px;
+    font-weight: 590;
+    line-height: 70px;
+    color: #004425;
+
+}
+
+.food_conclusion span {
+    color: var(--primary-color);
+}
+
+.food_conclusion p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color:
+        #1E1E1E;
+
+}
+.food_conclusion{
+    background-color: #FFFDF6;
+}
+.food_conclusion_img_con{
+    width: 100%;
+    height: 520px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.food_conclusion_img_con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (min-width:991px) {
+    .banner_con {
+        padding: 32px 106px 32px 106px;
+        height: 655px;
+
+
+    }
+
+    .food_categories_section {
+        padding: 32px 106px 32px 106px;
+
+    }
+
+    .food_conclusion {
+        padding: 32px 106px 32px 106px;
+
+    }
+
+    .food_categories_section .title {
+
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+
+
+    }
+
+    .banner_text {
+        font-size: 74px;
+
+    }
+
+    .buttons {
+        padding: 16px 48px 16px 48px;
+    }
+}
+
+@media (max-width:490px) {
+    .banner_img img {
+        width: 261px;
+    }
+
+}
